@@ -1,0 +1,53 @@
+section#encrypt {
+    margin-top: 10rem;
+}
+
+section#encrypt div.encrypt-container {
+    margin-top: 3rem;
+}
+
+section#encrypt div.encrypt-container div.encrypt-title {
+    text-align: center;
+}
+
+section#encrypt div.encrypt-container div.encrypt-title h2 {
+    color: rgb(246, 246, 250);
+    font-size: 2.4rem;
+}
+
+section#encrypt div.encrypt-container div.encrypt-image {
+    text-align: center;
+    margin: 2.5rem 12%;
+    max-width: 66rem;
+}
+
+section#encrypt div.encrypt-container div.encrypt-image img {
+    width: 80%;
+}
+
+@media only screen and (min-width: 1223px) and (max-width: 1215px) {}
+
+@media only screen and (max-width: 1023px) {}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    section#encrypt div.encrypt-container div.encrypt-title h2 {
+        font-size: 2.2rem;
+    }
+    section#encrypt div.encrypt-container div.encrypt-image {
+        margin: 2.5rem 0.5%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    section#encrypt div.encrypt-container div.encrypt-title h2 {
+        font-size: 2.6rem;
+    }
+    section#encrypt div.encrypt-container div.encrypt-image {
+        margin: 2.5rem 0.5%;
+        width: 100%;
+    }
+    section#encrypt div.encrypt-container div.encrypt-image img {
+        width: 95%;
+    }
+}
