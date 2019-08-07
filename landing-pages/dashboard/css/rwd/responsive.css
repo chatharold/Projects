@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1303px) and (min-width: 300px) {
+    .performance-container {
+        height: 233px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .revenue {
+        margin-left: 18%;
+    }
+    .revenue-graph {
+        display: flex;
+        right: 31rem;
+        margin-right: 13%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .comparison-result {
+        display: inline-block;
+        position: relative;
+        top: 4.3rem;
+    }
+    .comparison-result span {
+        display: inline-block;
+        padding: 16px 0;
+    }
+    .current-year {
+        position: relative;
+        top: 3px;
+    }
+
+    .last-year {
+        position: relative;
+        top: 3px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1247px) {
+    .revenue {
+        margin-left: 6%;
+    }
+    .revenue-graph {
+        margin-right: 4%;
+    }
+    .all-sales {
+        margin: 0 7%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+        display: inline !important;
+        grid-template-columns: auto !important;
+    }
+    .left-section {
+        border-radius: 0;
+    }
+    nav {
+        text-align: center !important;
+    }
+    footer {
+        justify-content: center !important;
+    }
+}
+
+@media only screen and (max-width: 584px) {
+    .revenue-percentage span {
+        left: 12rem;
+        top: 2rem;
+    }
+}

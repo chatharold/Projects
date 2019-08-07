@@ -1,0 +1,50 @@
+:root {
+    --menu-background: rgb(12, 10, 68);
+    --white-color: rgb(215, 215, 240);
+}
+
+.left-section {
+    background-color: var(--menu-background);
+    border-radius: 8px 0 0 8px;
+}
+
+figure {
+    padding: 20px;
+    border-bottom: 1px solid rgb(18, 14, 81);
+}
+
+figure img {
+    width: 20px;
+}
+
+figure span {
+    color: var(--white-color);
+    font-size: 0.7rem;
+    position: relative;
+    top: -0.3rem;
+    padding: 0 10px;
+}
+
+nav .dashboard-container, .layout-container, .user-interface-container, .user-interface-container, .charts-container, .maps-container, .tables-container, .setting-container {
+    padding: 20px;
+}
+
+span {
+    position: relative;
+    top: -0.2rem;
+}
+
+nav img {
+    width: 15px
+}
+
+.dashboard-container span {
+    color: var(--white-color);
+}
+
+nav span {
+    color: var(--white-color);
+    font-size: 0.7rem;
+    padding: 0 10px;
+    color: rgb(71, 69, 132);
+}
